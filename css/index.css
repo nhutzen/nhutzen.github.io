@@ -1,0 +1,77 @@
+/* 1. Style cho body: Chỉnh font-family và font-size */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: rgb(221, 230, 186);
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Style cho header: Chỉnh background-color */
+header {
+    background-color: rgb(230, 230, 230);
+    /* text-align: center; */
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    color: blue;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Giữ khoảng cách giữa nav và img */
+    gap: 20px; /* Tạo khoảng cách giữa các phần tử */
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    gap: 15px; /* Khoảng cách giữa các mục menu */
+}
+
+li {
+    display: inline-block;
+    width: auto;
+    margin: 0 20px;
+    text-align: center;
+}
+
+
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+
+main {
+    background-color: rgb(174, 236, 215);
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background-color: rgb(201, 199, 199);
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
